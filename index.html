@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tunnel Effect</title>
+  <link rel="stylesheet" href="web.css" />
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+        "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div id="loading-screen">
+    <p>Welcome to the Journey</p>
+    <p id="enter-message">Press Enter to Begin</p>
+
+  </div>
+
+  <div id="audio-control">
+    <button id="toggle-audio">Pause Audio</button>
+  </div>
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>
